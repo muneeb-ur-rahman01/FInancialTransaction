@@ -1,0 +1,15 @@
+# Dashboard theme. To return to a light look, set base = "light" and remove the colour lines
+# (dashboard/components/charts.py holds the matching chart colours).
+[theme]
+base = "dark"
+primaryColor = "#3987e5"
+backgroundColor = "#121211"
+secondaryBackgroundColor = "#1f1f1d"
+textColor = "#f0efec"
+font = "sans serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
